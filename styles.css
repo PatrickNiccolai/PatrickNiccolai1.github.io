@@ -10,6 +10,36 @@
 	float: right;
 }
 
+#headerP{
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+#headerP:before {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 2px;
+  background: #00540;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+#headerP:after {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 2px;
+  background: #00540;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
 .topnav {
   background-color: #00540B;
   overflow: hidden;
