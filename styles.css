@@ -70,5 +70,6 @@
 }
 
 .project{
-	border-bottom: 5px solid black;
+	border-bottom: 3px solid;
+	border-bottom-color: #00540B;
 }
